@@ -1,0 +1,13 @@
+include:
+  - ./pihole/docker-compose.yml
+  - ./blog-foos/docker-compose.yml
+  - ./nginx-proxy/docker-compose.yml
+  - ./prometheus/docker-compose.yml
+services:
+  basic-site:
+    build:
+      context: ./basic-site
+      dockerfile: Dockerfile
+    #ports:
+      #- "8080:80"
+

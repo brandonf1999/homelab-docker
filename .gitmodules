@@ -1,0 +1,15 @@
+[submodule "basic-site"]
+	path = basic-site
+	url = git@github.com:brandonf1999/homelab-basic-site.git
+[submodule "blog-foos"]
+	path = blog-foos
+	url = git@github.com:brandonf1999/foosnet.git
+[submodule "nginx-proxy"]
+	path = nginx-proxy
+	url = git@github.com:brandonf1999/homelab-nginx-proxy.git
+[submodule "pihole"]
+	path = pihole
+	url = git@github.com:brandonf1999/homelab-piehole.git
+[submodule "prometheus"]
+	path = prometheus
+	url = git@github.com:brandonf1999/homelab-prometheus.git
