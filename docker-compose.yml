@@ -3,6 +3,7 @@ include:
   - ./blog-foos/docker-compose.yml
   - ./nginx-proxy/docker-compose.yml
   - ./prometheus/docker-compose.yml
+  - ./drawio/docker-compose.yml
 services:
   basic-site:
     build:
