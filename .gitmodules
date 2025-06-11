@@ -18,3 +18,6 @@
 	path = prometheus
 	url = git@github.com:brandonf1999/homelab-prometheus.git
     branch = main
+[submodule "drawio"]
+	path = drawio
+	url = git@github.com:brandonf1999/homelab-drawio.git
