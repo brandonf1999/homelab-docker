@@ -4,6 +4,7 @@ include:
   - ./nginx-proxy/docker-compose.yml
   - ./prometheus/docker-compose.yml
   - ./drawio/docker-compose.yml
+  - ./homelab-guacamole/docker-compose.yml
 services:
   basic-site:
     build:
