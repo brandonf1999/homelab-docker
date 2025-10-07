@@ -5,6 +5,9 @@ include:
   - ./prometheus/docker-compose.yml
   - ./drawio/docker-compose.yml
   - ./homelab-guacamole/docker-compose.yml
+  - ./homelab-immich/docker-compose.yml
+  - ./container-registry/docker-compose.yml
+  - ./virtlab/docker-compose.yml
 services:
   basic-site:
     build:
